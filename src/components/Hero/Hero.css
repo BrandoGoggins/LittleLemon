@@ -1,0 +1,33 @@
+#hero {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    padding: auto;
+    gap: 135px;
+    max-width: fit-content;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  #hero img{
+    border-radius: 16px;
+  }
+  #hero-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: auto;
+  height: fit-content;
+  }
+  #hero-text h1 {
+    margin-bottom: 0px;
+  }
+  #hero-text h2 {
+    margin-top: -16px;
+    margin-bottom: 0px;
+  }
+  #hero-text p {
+    width: 400px;
+  }
+  #hero-text button {
+    margin-top: 16px;
+  }

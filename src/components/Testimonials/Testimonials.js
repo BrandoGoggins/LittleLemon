@@ -1,10 +1,11 @@
 import React from "react";
 import "./TestimonialsCard";
 import TestimonialsCard from "./TestimonialsCard";
-import pfp from "../assets/pfp.png";
-import pfp2 from "../assets/pfp2.png";
-import pfp3 from "../assets/pfp3.png";
-import pfp4 from "../assets/pfp4.png";
+import pfp from "../../assets/pfp.png";
+import pfp2 from "../../assets/pfp2.png";
+import pfp3 from "../../assets/pfp3.png";
+import pfp4 from "../../assets/pfp4.png";
+import "./Testimonials.css";
 
 const Testimonials = (props) => {
   const testimonialData = [

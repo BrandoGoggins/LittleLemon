@@ -1,0 +1,53 @@
+.specials {
+    max-width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  .special-card {
+    width: 345px;
+    margin: auto;
+    background-color: #EDEFEE;
+    border-radius: 16px;
+    padding-bottom: 16px;
+    transition: 400ms ease-out;
+  }
+  .special-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .special-card img {
+    overflow: hidden;
+    width: 345px;
+    height: 230px;
+    border-radius: 16px 16px 0px 0px;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+  }
+  .specials-container {
+    display: flex;
+    gap: 64px
+  }
+  .special-card h3 {
+    padding: 0px 0px 0px 17px;
+  }
+  .special-card h4 {
+    margin-bottom: 8px;
+    padding: 0px 0px 0px 17px;
+  }
+  .special-card p {
+    width: 290px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    padding: 0px 0px 0px 17px;
+  }
+  .specials-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+  }

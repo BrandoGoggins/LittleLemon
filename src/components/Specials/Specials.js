@@ -1,8 +1,9 @@
 import React from "react";
 import SpecialsCard from "./SpecialsCard";
-import lemon from "../assets/lemon.jpg";
-import salad from "../assets/greek salad.jpg";
-import bruchetta from "../assets/bruchetta.svg";
+import lemon from "../../assets/lemon.jpg";
+import salad from "../../assets/greek salad.jpg";
+import bruchetta from "../../assets/bruchetta.svg";
+import "./Specials.css";
 
 const Specials = (props) => {
   const specialsData = [
