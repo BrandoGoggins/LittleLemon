@@ -16,6 +16,8 @@
   
   .nav-list a {
     margin-right: 32px;
+    color: #423842;
+    text-decoration: none;
   }
   .nav-list a:hover {
     cursor: pointer;

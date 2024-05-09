@@ -1,34 +1,38 @@
 import React from "react";
 import Logo from "../../assets/Logo .svg";
 import "./Nav.css";
+import { Link } from "react-router-dom";
+import BookingPage from "../../pages/BookingPage";
 
 const Nav = () => {
   return (
     <nav>
       <ul className="nav-list">
         <li>
-          <img src={Logo}></img>
+          <Link to="/">
+            <img src={Logo}></img>
+          </Link>
         </li>
         <div className="nav-links">
           <li>
-            <a>Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a>Menu</a>
+            <Link>Menu</Link>
           </li>
           <li>
-            <a>Reservations</a>
+            <Link to="/bookings">Reservations</Link>
           </li>
           <li>
-            <a>About</a>
+            <Link>About</Link>
           </li>
         </div>
         <div className="nav-actions">
           <li>
-            <a>Order Online</a>
+            <Link>Order Online</Link>
           </li>
           <li>
-            <a>Log In</a>
+            <Link>Log In</Link>
           </li>
         </div>
       </ul>

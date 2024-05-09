@@ -1,0 +1,16 @@
+.booking {
+    max-width: fit-content;
+    margin: auto;
+    padding: 64px;
+    background-color: #edefee;
+    border-radius: 16px;
+    margin-bottom: 5%;
+}
+.booking label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button-booking {
+    
+}

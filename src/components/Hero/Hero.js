@@ -1,8 +1,11 @@
 import React from "react";
 import img from "../../assets/heroimg.svg";
 import "./Hero.css";
+import { useNavigate, NavigateFunction } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section id="hero">
       <div id="hero-text">
@@ -13,7 +16,7 @@ const Hero = () => {
           knausgaard tile pok plz gentrify hashtag pabst literally
           intelligentsia. 90's plaid they actually it brunch batch.
         </p>
-        <button>Reserve a Table</button>
+        <button onClick={() => navigate("/bookings")}>Reserve a Table</button>
       </div>
       <img src={img} alt="Little Lemon Chef showing off their food."></img>
     </section>
