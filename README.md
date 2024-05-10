@@ -1,4 +1,6 @@
-# Little Lemon Project
+<p align="center">
+  <img src="https://i.gyazo.com/fc4788f937038373dae42904f5bf11f4.png" alt="Little Lemon Showcase Image" style="width: 50%;">
+</p>
 
 ### Live Site <a href=""></a>
 
