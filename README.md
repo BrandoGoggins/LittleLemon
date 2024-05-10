@@ -2,7 +2,7 @@
   <img src="https://i.gyazo.com/fc4788f937038373dae42904f5bf11f4.png" alt="Little Lemon Showcase Image" style="width: 100%;">
 </p>
 
-### Live Site <a href=""></a>
+### <a href="https://main--dreamy-mochi-52ce04.netlify.app/">Live Site</a>
 
 This project is the final capstone for Meta's Front-End Developer Certificate on Coursera. It's a web application for the Little Lemon Restaurant, a family-owned Mediterranean restaurant.
 
