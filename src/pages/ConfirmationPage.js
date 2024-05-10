@@ -1,12 +1,27 @@
 import React from "react";
+import Nav from "../components/Nav/Nav";
+import Footer from "../components/Footer/Footer";
+import "../components/BookingForm/BookingForm.css";
+import check from "../assets/check.png";
+import { Link } from "react-router-dom";
 
-const ConfirmationPage = () => {
+const ConfirmationPage = (props) => {
   return (
-    <div className="confirm">
-      <h1>
-        Booking has been <span>confirmed!</span>
-      </h1>
-    </div>
+    <>
+      <Nav />
+      <div className="bookings-container">
+        <img src={check} />
+        <h1 className="booking-title">Reservation Confirmed</h1>
+        <p>
+          Congratulations! Your table at Little Lemon is all set. Relax and get
+          excited for a delicious meal. See you soon!
+        </p>
+        <Link to="/">
+          <button>Back to Home</button>
+        </Link>
+      </div>
+      <Footer />
+    </>
   );
 };
 

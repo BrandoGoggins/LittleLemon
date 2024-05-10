@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { submitAPI } from "./temp";
 import { useNavigate } from "react-router-dom";
 import { Link as LinkR } from "react-router-dom";
+import "./BookingForm.css";
 
 const BookingForm = ({ availableTimes, dispatch }) => {
   const navigate = useNavigate();
@@ -9,7 +10,7 @@ const BookingForm = ({ availableTimes, dispatch }) => {
   const [bookings, setBookings] = useState({
     date: "",
     time: "17:00",
-    guests: "",
+    guests: "2",
     occasion: "Birthday",
   });
 
@@ -55,9 +56,11 @@ const BookingForm = ({ availableTimes, dispatch }) => {
   return (
     <section name="reservations" className="booking-form">
       <div className="bookings-container">
-        <h2 className="booking-header">Little Lemon</h2>
-        <h2 className="booking-subheader">Chicago</h2>
-        <h1 className="booking-title">Find a Table for any occasion</h1>
+        <h1 className="booking-title">Table Reservation</h1>
+        <p>
+          Our intuitive interface allows you to easily choose your preferred
+          location, whether it's a cozy booth or a table with a view.
+        </p>
         <form
           className="form-container"
           onSubmit={handleSubmit}
@@ -130,7 +133,7 @@ const BookingForm = ({ availableTimes, dispatch }) => {
 
           {/* SUBMIT */}
           <button type="submit" className="booking-button">
-            Make Your reservation
+            Reserve My Table
           </button>
         </form>
       </div>
