@@ -1,18 +1,20 @@
 # Little Lemon Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the final capstone for Meta's Front-End Developer Certificate on Coursera. It's a web application for the Little Lemon Restaurant, a family-owned Mediterranean restaurant.
 
-## Available Scripts
+## Features:
 
-In the project directory, you can run:
+• A modern and responsive design
+• Online table booking functionality
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project uses Create React App for development. To get started:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone this repository.
+Install dependencies: npm install
+Run the development server: npm start
+This will open the app in your browser at http://localhost:3000
 
 ### `npm test`
 
