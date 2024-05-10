@@ -28,7 +28,7 @@
   }
   .specials-container {
     display: flex;
-    gap: 64px
+    gap: 64px;
   }
   .special-card h3 {
     padding: 0px 0px 0px 17px;

@@ -86,8 +86,9 @@ button:hover {
   }
   .footer-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center;
+    margin: auto;
   }
   .footer-links {
     flex-direction: column;
@@ -106,6 +107,7 @@ button:hover {
   #hero img {
     width: 75%;
     margin: auto;
+    display: none;
   }
   #hero-text {
     margin-bottom: 32px;
@@ -114,11 +116,12 @@ button:hover {
     flex-direction: column;
     height: 600px;
     gap: 0px;
-    margin-bottom: 5%;
+    margin-bottom: 25%;
   }
   #about img {
     width: 75%;
     margin: auto;
+    display: none;
   }
   .testimonials {
     text-align: center;
